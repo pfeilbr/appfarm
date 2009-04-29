@@ -1,0 +1,11 @@
+application: appfarm
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url:  /fb_api_explorer
+  static_dir: fb_api_explorer
+- url: .*
+  script: main.py
+  
