@@ -4,6 +4,8 @@ runtime: python
 api_version: 1
 
 handlers:
+- url:  /lib
+  static_dir: lib
 - url:  /fb_api_explorer
   static_dir: fb_api_explorer
 - url: .*
