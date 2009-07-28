@@ -8,6 +8,6 @@ handlers:
   static_dir: lib
 - url:  /fb_api_explorer
   static_dir: fb_api_explorer
-- url: .*
+- url: /.*
   script: main.py
   
